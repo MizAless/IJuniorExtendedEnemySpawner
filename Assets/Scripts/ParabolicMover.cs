@@ -35,6 +35,5 @@ public class ParabolicMover : MonoBehaviour, IMover
             _offsetDirection *= -1;
 
         _parabolicAngle += _angleChangeSpeed * Time.fixedDeltaTime * _offsetDirection;
-        print(_parabolicAngle);
     }
 }
